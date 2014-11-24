@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x17f98b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>GNOME Inform 7</generator>
+  <activeNode nodeId="node-0x17f98b0"/>
+  <item nodeId="node-0x17f98b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Bienvenue dans Super Mario 64 version IF !
+
+introCover.png
+
+Une fiction interactive (Interactive Fiction, IF) est un jeu sous forme entièrement textuel, dans lequel vous donnez des ordres à votre personnage afin de lui faire effectuer différentes actions lui permettant de progresser dans l&apos;aventure.
+
+Avant de commencer le jeu, je vais vous poser quelques questions pour pouvoir l&apos;adapter à vos besoins.
+
+Avez-vous déjà joué à une fiction interactive ?
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f9a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f9a10">
+    <command xml:space="preserve">oui</command>
+    <result xml:space="preserve">Parfait ! Dans ce cas, vous ne devriez pas avoir de problème avec Mario 64 IF. Le jeu utilise les règles de base du genre, et le nombre de commandes disponibles est relativement limité pour rendre le jeu plus accessible.
+
+Cependant, vous avez tout de même la possibilité de faire un petit tutorial passant en revue les commandes importantes du jeu. Vous n&apos;en avez pas forcément besoin, mais un petit rappel ne fait jamais de mal.
+Voulez-vous suivre le tutorial ?
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f9b70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f9b70">
+    <command xml:space="preserve">non</command>
+    <result xml:space="preserve">Très bien. Notez cependant que vous pouvez faire le tutorial à tout moment en utilisant la commande tutorial, et accéder à de l&apos;aide générale avec la commande aide.
+
+Sur ce, bon jeu !
+
+Appuyez sur Espace pour continuer.
+
+
+Super Mario 64 IF
+Une adaptation libre de Super Mario 64 en fiction interactive par Meuh
+Release 1 / Serial number 110711 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Standard Rules version 2/090402 by Graham Nelson
+French version 9/110414 by Eric Forgeot
+
+
+Voilà une très bonne façon de passer la journée. Tenant en main une lettre, vous courez à en perdre haleine vers le tuyau menant au château de la Princesse Peach. Après tout, ce n&apos;est pas tous les jours qu&apos;on reçoit une invitation pareille. Et puis, surtout, il y a ce fameux gâteau ! La simple pensée de ce délice vous fait perdre pieds quelques secondes, mais vous repartez de plus belle.
+
+&quot;Cher Mario, Rends-toi au château au plus tôt ! Je t&apos;ai préparé un délicieux gâteau.
+
+Princesse Toadstool - Peach&quot;
+
+Dès que vous avez reçu cette lettre, vous avez bondi de votre chaise, laissant sur place votre frère Luigi sans aucune autre explication. Bah, vous lui rapporterez un bout de gâteau pour vous faire pardonner. S&apos;il en reste.
+
+Appuyez sur Espace pour continuer.
+
+
+Cour du chateau
+Alors que vous sautez hors du tuyau, celui-ci disparait derrière vous. Vous voilà dans le jardin du château de la Princesse Peach. Tout comme elle, il est majestueux : le paysage est magnifique, une énorme cascade se jette dans les douves du château, et il y a même un lac artificiel. Pour sûr, c&apos;est un endroit parfait pour se promener. Ou manger un gâteau.
+
+Au nord se trouve la porte du château. La cascade se trouve à l&apos;ouest, tandis que le lac artificiel est à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f9cd0"/>
+      <child nodeId="node-0x303b600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f9cd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Juste avant de passer le pont, une étrange tortue sur un nuage vous aborde.
+
+&quot;Hé, salut Mario, ici Lakitu ! Bon, au cas où tu n&apos;aurais pas remarqué, il n&apos;y a pas de graphismes dans ce jeu, donc je ne pourrais pas te servir à grand chose. Cependant, laisse-moi te donner un conseil : si tu te sens perdu, n&apos;hésite à pas taper la commande aide. Elle te permettra de savoir les directions que tu peux emprunter et les objets avec lesquels tu peux agir.
+
+Bon, c&apos;est à peu près tout ce que je peux faire. Ciao !&quot;
+
+Le Lakitu repart aussi vite qu&apos;il est arrivé. Étrange personnage.
+
+Appuyez sur Espace pour continuer.
+
+Vous poussez la porte d&apos;entrée du château...
+En entrant, vos pieds foulent un joli tapis rouge. Alors que vous avancez dans l&apos;entrée, vous vous rendez compte que le château est fort peu animé. En général, rien que la salle principale est remplie de gardes devant toutes les portes, de servants s&apos;affairant dans tous les sens, et de quelques touristes venus admirer le château. Pourtant, cette fois, personne. Une étrange voix vous explique soudainement la situation :
+
+&quot;Regardez qui voilà, le pathétique plombier ! Sache que j&apos;ai enfermé tous les habitants du château, y compris ta chère princesse ! J&apos;en ai profité pour fermer toutes les portes grâce à mes étoiles de puissance, que j&apos;ai confiées à mes sbires. Autant dire que tu n&apos;as aucune chance de revoir qui que ce soit. Je te conseille de faire demi-tour, ça te fera perdre moins de temps !
+
+Oh au fait, ne compte pas sur le gâteau : celui-là sera pour moi !&quot;
+
+
+Pas de doute, Bowser a encore remis ça. Il va vous falloir, une fois de plus, sauver la princesse et tout le royaume avec. En avant ! Personne ne doit toucher au gâteau...et à la princesse, bien sûr !
+
+Appuyez sur Espace pour continuer.
+
+Salle principale
+La salle principale vous a toujours parue excessivement grande. Certes, ça a permis au décorateur de joliment embellir la pièce, le papier-peint représentant un magnifique ciel. Mais tout de même, toute la pièce est vide, il pourrait y avoir quelques meubles histoire de remplir. Mais bon, un grand château fait toujours son effet.
+
+Plusieurs portes se trouvent autour de vous. À l&apos;est, une porte marquée d&apos;un 3. Au nord-est, une autre marquée d&apos;un 1, et au nord-ouest, une autre marquée d&apos;un 3. Enfin, une dernière porte, sans numéro, se trouve à l&apos;ouest. La sortie du château est au sud, et un escalier se trouve au nord.
+
+Un Toad essaye d&apos;attirer votre attention en sautant (de manière assez pathétique) sur place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f9e30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f9e30">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">La porte s&apos;ouvre sans rechigner. Il semblerait que Bowser l&apos;ait oubliée, ce qui est à votre avantage. Remarquez, vu le nombre de portes dans ce château, il n&apos;est pas étonnant qu&apos;il en ait oublié une.
+
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec11e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec11e0">
+    <command xml:space="preserve">sauter dans tableau</command>
+    <result xml:space="preserve">Sans être sûr de vous, vous sautez en direction de la peinture. Alors que vous vous préparez à un douloureux impact, voilà que vous passez au travers comme s&apos;il s&apos;agissait d&apos;une surface liquide...
+
+Étoile 1 : Le Roi Bob-Omb.
+
+Appuyez sur Espace pour continuer.
+
+Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Mais l&apos;activité qu&apos;on y pratique vous empêche de profiter du paysage : des canons tirent dans tous les sens, produisant un vacarme assourdissant. Il semblerait que ce joli lieu soit le théâtre d&apos;une importante bataille. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Un canon tirant des bulles se trouve juste devant vous.
+
+À ses côtés, un Bob-omb rose observe la trajectoire de chaque bulle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec14a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec14a0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1600">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous avez l&apos;impression de courir sur place, mais après bien des efforts, vous arrivez finalement en haut.
+
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1760">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Un canon tire frénétiquement des bulles en direction du champ de bataille. Sa trajectoire semble cependant complètement aléatoire, les bulles atterrissant aussi bien sur des bob-ombs roses que sur des noires. Difficile de savoir à quel côté il appartient, du fait.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec18c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec18c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cinquieme niveau de la colline
+D&apos;ici, vous avez une vue parfaite sur l&apos;intégralité du monde. Vues d&apos;en haut, les bob-ombs ressemblent juste à des points noirs (ou roses) se déplaçant dans tous les sens et explosant sans raison. La guerre n&apos;a vraiment aucun sens.
+
+Vous pouvez redescendre la colline par le sud.
+
+Devant vous se dresse le Roi Bob-Omb. Celui-ci est tellement occupé à observer la bataille qu&apos;il ne vous a pas remarqué.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1a20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1a20">
+    <command xml:space="preserve">prendre roi</command>
+    <result xml:space="preserve">Alors que celui-ci vous tourne le dos, vous prenez le Roi Bob-Omb a bout de bras et le jetez sur le sol. L&apos;impact provoque une énorme secousse qui vous fait presque tomber.
+
+&quot;Argh ! Mais c&apos;est quoi, ça ! Hé, aidez-moi à me relever, vous savez bien que je n&apos;y arrive pas tout seul ! Hé ! Il y a quelqu&apos;un ?! Où sont mes soldats ?!&quot;
+
+Le Roi Bob-Omb remarque enfin votre présence.
+
+&quot;Hé toi, le type en salopette rouge ! Tu ne sais donc pas que je suis le Roi Bob-Omb ?! Bowser m&apos;a personnellement chargé de garder son étoile de pouvoir, et je ne peux pas y arriver si je suis sur le dos comme ça. Aide-moi à me relever !&quot;
+
+Effectivement, le roi Bob-Omb tient dans sa main une étoile brillante.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1b80">
+    <command xml:space="preserve">prendre etoile</command>
+    <result xml:space="preserve">Vous prenez l&apos;étoile des mains du roi Bob-Omb. À terre, il ne peut pas vraiment répliquer, mais il tente tout de même de faire connaitre son mécontentement.
+
+&quot;Ne touche pas à ça ! C&apos;est à moi ! Si Bowser vient à l&apos;apprendre, je suis cuit ! Hé, tu m&apos;écoutes ?! Rends-la moi !&quot;
+
+Au moment où vous touchez l&apos;étoile, un grand halo blanc vous entoure, vous faisant flotter légèrement en direction du ciel. La dernière chose que vous voyez est le Roi Bob-Omb tentant vainement de se remettre sur ses pieds, en vous lançant quelques insultes.
+
+Vous venez d&apos;obtenir l&apos;étoile 1 de ce niveau ! Vous avez maintenant une étoile !
+
+Appuyez sur Espace pour continuer.
+Vous ressortez d&apos;un seul coup de la peinture, vous retrouvant ainsi dans le château.
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1ce0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1ce0">
+    <command xml:space="preserve">sauter dans tableau</command>
+    <result xml:space="preserve">Maintenant que vous savez comment ça fonctionne, vous sautez directement dans la peinture sans hésitation.
+
+Étoile 2 : Koopa Rapido.
+
+Appuyez sur Espace pour continuer.
+
+Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Mais l&apos;activité qu&apos;on y pratique vous empêche de profiter du paysage : des canons tirent dans tous les sens, produisant un vacarme assourdissant. Il semblerait que ce joli lieu soit le théâtre d&apos;une importante bataille. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Une grande tortue se tient à quelques mètres devant vous. Elle semble être sur le qui-vive.
+
+Un canon tirant des bulles se trouve juste devant vous.
+
+À ses côtés, un Bob-omb rose observe la trajectoire de chaque bulle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1e40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1e40">
+    <command xml:space="preserve">parler a koopa</command>
+    <result xml:space="preserve">&quot;Hé, Mario ! Il parait que tu es plutôt rapide quand il s&apos;agit de faire la course. Mais à mon avis, tu n&apos;es pas aussi rapide que moi, Koopa Rapido !
+
+Tu penses que je suis lent parce que je suis une tortue ? Je vais te prouver le contraire ! Faisons la course jusqu&apos;en haut de la colline, là où se trouvait le roi Bob-Omb. Le premier en haut a gagné !&quot;
+
+Vous n&apos;avez même pas le temps de dire un mot que Koopa Rapido a déjà mis la gomme. Il est rapide, d&apos;ailleurs, vous avez intérêt à vous dépêcher.
+
+Koopa Rapido semble se diriger vers nord.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea090"/>
+      <child nodeId="node-0x2eeaa30"/>
+      <child nodeId="node-0x2eeae50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea090">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Pres de l&apos;arche
+Juste devant vous se trouve une énorme pente d&apos;où descendent de nombreux boulets (que vous évitez avec élégance, d&apos;ailleurs). La pente est tellement raide que vous ne pourriez pas monter par là.
+
+À l&apos;ouest se trouve une arche. Le chemin à l&apos;est retourne à votre point de départ.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea1f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea1f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Sous l&apos;arche
+Vous vous retrouvez sous l&apos;arche faisant office de pont menant à la colline. Pas grand chose d&apos;intéressant à faire ici.
+
+Une pente d&apos;où tombent de nombreux boulets est à l&apos;est. Au sud-est se trouve le pied de la colline.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea350">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea4b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea4b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea610">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Le temps passe...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea770">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Sous l&apos;arche
+Vous vous retrouvez sous l&apos;arche faisant office de pont menant à la colline. Pas grand chose d&apos;intéressant à faire ici.
+
+Une pente d&apos;où tombent de nombreux boulets est à l&apos;est. Au sud-est se trouve le pied de la colline.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eea8d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eea8d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Sous l&apos;arche
+Vous vous retrouvez sous l&apos;arche faisant office de pont menant à la colline. Pas grand chose d&apos;intéressant à faire ici.
+
+Une pente d&apos;où tombent de nombreux boulets est à l&apos;est. Au sud-est se trouve le pied de la colline.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2eeaa30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Mais l&apos;activité qu&apos;on y pratique vous empêche de profiter du paysage : des canons tirent dans tous les sens, produisant un vacarme assourdissant. Il semblerait que ce joli lieu soit le théâtre d&apos;une importante bataille. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Un canon tirant des bulles se trouve juste devant vous.
+
+À ses côtés, un Bob-omb rose observe la trajectoire de chaque bulle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eeab90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eeab90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Pres de l&apos;arche
+Juste devant vous se trouve une énorme pente d&apos;où descendent de nombreux boulets (que vous évitez avec élégance, d&apos;ailleurs). La pente est tellement raide que vous ne pourriez pas monter par là.
+
+À l&apos;ouest se trouve une arche. Le chemin à l&apos;est retourne à votre point de départ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2eeacf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2eeacf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Sous l&apos;arche
+Vous vous retrouvez sous l&apos;arche faisant office de pont menant à la colline. Pas grand chose d&apos;intéressant à faire ici.
+
+Une pente d&apos;où tombent de nombreux boulets est à l&apos;est. Au sud-est se trouve le pied de la colline.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2eeae50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+Koopa Rapido semble se diriger vers ouest.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11090">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+Koopa Rapido semble se diriger vers nord-est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f111f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f111f0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Deuxieme niveau de la colline
+En montant, vous prenez garde d&apos;éviter un tas d&apos;énormes boulets tentant de vous écraser. Pas le temps de se demander d&apos;où ils viennent ni pourquoi ils sont là, alors que personne d&apos;autre que vous ne tente de monter la colline, le chemin est encore long.
+
+Vous pouvez redescendre par le sud-ouest ou continuer à monter à l&apos;ouest. Au nord-ouest se trouve une petite cavité.
+
+Vous apercevez Koopa Rapido courir à une vitesse assez impressionnante.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11350">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+Vous apercevez Koopa Rapido tenter de vous rattraper.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f114b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f114b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Un canon tire frénétiquement des bulles en direction du champ de bataille. Sa trajectoire semble cependant complètement aléatoire, les bulles atterrissant aussi bien sur des bob-ombs roses que sur des noires. Difficile de savoir à quel côté il appartient, du fait.
+
+Vous apercevez Koopa Rapido tenter de vous rattraper.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11610">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bravo, vous êtes arrivé premier ! Vous n&apos;avez plus qu&apos;à attendre Koopa Rapido et réclamer votre récompense.
+
+Cinquieme niveau de la colline
+D&apos;ici, vous avez une vue parfaite sur l&apos;intégralité du monde. Vues d&apos;en haut, les bob-ombs ressemblent juste à des points noirs (ou roses) se déplaçant dans tous les sens et explosant sans raison. La guerre n&apos;a vraiment aucun sens.
+
+Vous pouvez redescendre la colline par le sud.
+
+Vous apercevez Koopa Rapido tenter de vous rattraper.
+Vous n&apos;avez plus qu&apos;à lui parler pour récupérer votre étoile !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11770">
+    <command xml:space="preserve">parler a koopa</command>
+    <result xml:space="preserve">&quot;Pfou...Tu...Tu es vraiment rapide. Tiens, tu l&apos;as méritée.&quot;
+Koopa Rapido sort de sa carapace un objet brillant...Une étoile de puissance ! Bien joué !
+Sans vous faire prier, vous prenez l&apos;étoile des mains de Koopa Rapido. Aussitôt, vous êtes enveloppé d&apos;un halo blanc, comme la dernière fois. La dernière chose que vous voyez est Koopa Rapido suant à grosses goûtes...
+
+Vous venez d&apos;obtenir l&apos;étoile 2 de ce niveau ! Vous avez maintenant deux étoiles !
+
+Appuyez sur Espace pour continuer.
+Vous ressortez d&apos;un seul coup de la peinture, vous retrouvant ainsi dans le château.
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f118d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f118d0">
+    <command xml:space="preserve">sauter dans peinture</command>
+    <result xml:space="preserve">Vous prenez un peu d&apos;élan et sautez dans la peinture.
+
+Étoile 3 : Canon vers l&apos;île perchée.
+
+Appuyez sur Espace pour continuer.
+
+Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Le calme est revenu maintenant que le Roi Bob-Omb a été vaincu, permettant de profiter du paysage sans être dérangé par le bruit assourdissant des canons. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Le canon qui se trouvait ici a été rangé sous une grille.
+
+Votre ami le Bob-Omb rose n&apos;a plus grand chose à faire maintenant que le canon n&apos;est plus utilisé.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11a30">
+    <command xml:space="preserve">parler a bobomb</command>
+    <result xml:space="preserve">Vous vous approchez lentement du Bob-Omb rose, craignant de vous faire encore crier dessus. Heureusement, il a l&apos;air plutôt content, cette fois.
+
+&quot;Ah, vous voilà, soldat ! On m&apos;a confirmé que le Roi Bob-Omb avait été battu, et par votre main, en plus ! Je ne sais pas comment vous avez fait, mais merci, ça nous aidera beaucoup dans cette bataille.
+
+Tenez, en gage de gratitude, je vais vous laisser utiliser nos canons. Donnez-moi une seconde que je les ouvre tous.&quot;
+
+Quelques secondes plus tard, le canon qui se trouve juste à côté de vous sort de terre.
+
+&quot;Voilà ! Il vous suffit de sauter dedans, et c&apos;est parti ! Oh, par contre, faites attention : ils ne sont pas toujours très précis. Ne venez pas vous plaindre s&apos;ils ne vous emmènent pas là où vous voulez...&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11b90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+Le Chomp vous aboie dessus en vous regardant d&apos;un mauvais ½il.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11cf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11cf0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f11e50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f11e50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous avez l&apos;impression de courir sur place, mais après bien des efforts, vous arrivez finalement en haut.
+
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38090">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f381f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f381f0">
+    <command xml:space="preserve">sauter dans canon</command>
+    <result xml:space="preserve">Vous entrez dans le canon. Celui-ci peut vous amener aux destinations suivantes :
+tirer vers 1 - Champ de bataille
+tirer vers 2 - Ile perchee.
+tirer vers 3 - Cage du Chomp
+
+Tapez la commande correspondant à la destination souhaitée.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38350">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Vous réglez la trajectoire du canon, et...c&apos;est parti !
+
+Ile perchee.
+Cela semble difficile à croire, mais pourtant, vous vous tenez sur un petit morceau de terre qui flotte dans les airs, sans aucun point d&apos;accroche. Il semblerait que les mondes à l&apos;intérieur des peintures n&apos;obéissent pas entièrement aux lois de la physique, ce qui peut être à votre avantage.
+
+D&apos;ici, vous pouvez uniquement redescendre jusqu&apos;à la cage du Chomp.
+
+Au beau milieu de l&apos;île, une étoile de puissance tourne sur elle-même, à quelques centimètres du sol.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f384b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f384b0">
+    <command xml:space="preserve">prendre etoile</command>
+    <result xml:space="preserve">L&apos;étoile étant littéralement à portée de main, vous ne vous gênez pas pour l&apos;attraper. À peine celle-ci en votre possession, vous êtes entouré d&apos;un halo blanc...
+
+Vous venez d&apos;obtenir l&apos;étoile 3 de ce niveau ! Vous avez maintenant trois étoiles !
+
+Appuyez sur Espace pour continuer.
+Vous ressortez d&apos;un seul coup de la peinture, vous retrouvant ainsi dans le château.
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38610">
+    <command xml:space="preserve">sauter dans peinture</command>
+    <result xml:space="preserve">Vous prenez un peu d&apos;élan et sautez dans la peinture.
+
+Étoile 4 : Les huit pièces rouges.
+
+Appuyez sur Espace pour continuer.
+
+Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Le calme est revenu maintenant que le Roi Bob-Omb a été vaincu, permettant de profiter du paysage sans être dérangé par le bruit assourdissant des canons. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Une pièce rouge se trouve juste devant vous.
+
+Le canon se tient prêt à tirer.
+
+Votre ami le Bob-Omb rose n&apos;a plus grand chose à faire maintenant que le canon n&apos;est plus utilisé.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38770">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f388d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f388d0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pres de l&apos;arche
+Juste devant vous se trouve une énorme pente d&apos;où descendent de nombreux boulets (que vous évitez avec élégance, d&apos;ailleurs). La pente est tellement raide que vous ne pourriez pas monter par là.
+
+À l&apos;ouest se trouve une arche. Le chemin à l&apos;est retourne à votre point de départ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38a30">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Sous l&apos;arche
+Vous vous retrouvez sous l&apos;arche faisant office de pont menant à la colline. Pas grand chose d&apos;intéressant à faire ici.
+
+Une pente d&apos;où tombent de nombreux boulets est à l&apos;est. Au sud-est se trouve le pied de la colline.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38b90">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 2.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38cf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38cf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f38e50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f38e50">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54040">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f541a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f541a0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54300">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Une pièce rouge se trouve juste devant vous.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54460">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 3.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f545c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f545c0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54720">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Deuxieme niveau de la colline
+En montant, vous prenez garde d&apos;éviter un tas d&apos;énormes boulets tentant de vous écraser. Pas le temps de se demander d&apos;où ils viennent ni pourquoi ils sont là, alors que personne d&apos;autre que vous ne tente de monter la colline, le chemin est encore long.
+
+Vous pouvez redescendre par le sud-ouest ou continuer à monter à l&apos;ouest. Au nord-ouest se trouve une petite cavité.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54880">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">
+Petite Cavite
+La cavité est en fait extrêmement étroite, et ne mène nulle part. Elle n&apos;a à première vue aucune utilité.
+
+Vous pouvez en sortir en allant au sud-est.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f549e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f549e0">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 4.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54b40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54b40">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Soudainement, vous êtes téléporté dans un autre endroit...
+
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54ca0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54ca0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Le temps passe...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f54e00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f54e00">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Le temps passe...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a060">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a1c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a1c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a320">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Deuxieme niveau de la colline
+En montant, vous prenez garde d&apos;éviter un tas d&apos;énormes boulets tentant de vous écraser. Pas le temps de se demander d&apos;où ils viennent ni pourquoi ils sont là, alors que personne d&apos;autre que vous ne tente de monter la colline, le chemin est encore long.
+
+Vous pouvez redescendre par le sud-ouest ou continuer à monter à l&apos;ouest. Au nord-ouest se trouve une petite cavité.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a480">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a5e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a5e0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Deuxieme niveau de la colline
+En montant, vous prenez garde d&apos;éviter un tas d&apos;énormes boulets tentant de vous écraser. Pas le temps de se demander d&apos;où ils viennent ni pourquoi ils sont là, alors que personne d&apos;autre que vous ne tente de monter la colline, le chemin est encore long.
+
+Vous pouvez redescendre par le sud-ouest ou continuer à monter à l&apos;ouest. Au nord-ouest se trouve une petite cavité.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7a8a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7a8a0">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7aa00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7aa00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7ab60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7ab60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cinquieme niveau de la colline
+D&apos;ici, vous avez une vue parfaite sur l&apos;intégralité du monde. Vues d&apos;en haut, les bob-ombs ressemblent juste à des points noirs (ou roses) se déplaçant dans tous les sens et explosant sans raison. La guerre n&apos;a vraiment aucun sens.
+
+Vous pouvez redescendre la colline par le sud.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7acc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7acc0">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 5.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2f7ae20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2f7ae20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0060">
+    <command xml:space="preserve">sauter dans canon</command>
+    <result xml:space="preserve">Vous entrez dans le canon. Celui-ci peut vous amener aux destinations suivantes :
+tirer vers 1 - Champ de bataille
+tirer vers 2 - Ile perchee.
+tirer vers 3 - Cage du Chomp
+
+Tapez la commande correspondant à la destination souhaitée.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa01c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa01c0">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Vous réglez la trajectoire du canon, et...c&apos;est parti !
+
+Ile perchee.
+Cela semble difficile à croire, mais pourtant, vous vous tenez sur un petit morceau de terre qui flotte dans les airs, sans aucun point d&apos;accroche. Il semblerait que les mondes à l&apos;intérieur des peintures n&apos;obéissent pas entièrement aux lois de la physique, ce qui peut être à votre avantage.
+
+D&apos;ici, vous pouvez uniquement redescendre jusqu&apos;à la cage du Chomp.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0320">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 6.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0480">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Vous sautez vers le bas jusqu&apos;à la cage du Chomp. Certes, c&apos;est assez haut, mais, hé, vous êtes Mario, quand même !
+
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa05e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa05e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+Le Chomp tire le plus fort possible pour casser sa chaine. Heureusement, elle est solide. Enfin, à première vue.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0740">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa08a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa08a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Petit champ
+Un petit champ parfait pour se reposer. D&apos;ici, vous avez une belle vue sur la colline, qui s&apos;élève à une distance très respectable dans le ciel. Vous feriez bien un petit somme, mais vous n&apos;en avez vraiment pas le temps...
+
+Vous pouvez revenir au pied de la colline en allant au nord.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0a00">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous vous emparez de la pièce rouge. Vous en avez maintenant 7.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0b60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0b60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0cc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0cc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous avez l&apos;impression de courir sur place, mais après bien des efforts, vous arrivez finalement en haut.
+
+Troisieme niveau de la colline
+D&apos;ici, vous pouvez déjà voir presque toute la zone de bataille. Maintenant que vous le remarquez, l&apos;intégralité de ce monde semble flotter dans les airs, loin de tout. C&apos;est sans doute lié au fait qu&apos;il s&apos;agit d&apos;une peinture, enfermée dans un cadre qui limite forcément le monde qui s&apos;y trouve.
+
+Le chemin continue au nord. Vous pouvez également redescendre au second niveau par l&apos;est, voire même glisser jusqu&apos;en bas par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fa0e20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fa0e20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc070">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cinquieme niveau de la colline
+D&apos;ici, vous avez une vue parfaite sur l&apos;intégralité du monde. Vues d&apos;en haut, les bob-ombs ressemblent juste à des points noirs (ou roses) se déplaçant dans tous les sens et explosant sans raison. La guerre n&apos;a vraiment aucun sens.
+
+Vous pouvez redescendre la colline par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc1d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc1d0">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc330">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous n&apos;avez rien.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc5f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc5f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc750">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Quatrieme niveau de la colline
+Une petite île flotte comme si de rien n&apos;était non loin de la colline. Elle est cependant trop loin pour que vous puissiez y sauter d&apos;ici.
+
+Au sud-est se trouve une petite cavité. Vous pouvez accéder au dernier niveau par le nord ou redescendre par le sud.
+
+Le canon posté sur le haut de la colline semble s&apos;être calmé. Les Bob-Ombs se sont peut-être rendus compte qu&apos;il faisait plus de mal que de bien...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcc8b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcc8b0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Petite Cavite
+La cavité est en fait extrêmement étroite, et ne mène nulle part. Elle n&apos;a à première vue aucune utilité.
+
+Vous pouvez en sortir en allant au nord-ouest.
+
+Une pièce rouge se trouve juste devant vous.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcca10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcca10">
+    <command xml:space="preserve">prendre piece</command>
+    <result xml:space="preserve">Vous attrapez la dernière pièce rouge du niveau. Il ne vous reste plus qu&apos;à chercher où l&apos;étoile est apparue !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fccb70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fccb70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcccd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcccd0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Soudainement, vous êtes téléporté dans un autre endroit...
+
+Deuxieme niveau de la colline
+En montant, vous prenez garde d&apos;éviter un tas d&apos;énormes boulets tentant de vous écraser. Pas le temps de se demander d&apos;où ils viennent ni pourquoi ils sont là, alors que personne d&apos;autre que vous ne tente de monter la colline, le chemin est encore long.
+
+Vous pouvez redescendre par le sud-ouest ou continuer à monter à l&apos;ouest. Au nord-ouest se trouve une petite cavité.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fcce30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fcce30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4010">
+    <command xml:space="preserve">so</command>
+    <result xml:space="preserve">
+Pied de la colline
+Hé bien, c&apos;est sacrément haut ! Pas étonnant que le roi Bob-omb ait choisi cet endroit comme base d&apos;opération : à partir du sommet, il peut tout observer. La perspective de grimper ne vous enchante guère, mais vous n&apos;avez pas beaucoup le choix.
+
+Au nord, une pente très raide permet d&apos;accéder directement au troisième niveau de la colline. Au nord-est, un chemin bien plus plat mais moins rapide vous permet de monter au second niveau. Un pont menant au Chomp se trouve à l&apos;est. Vous pouvez passer sous l&apos;arche menant à la colline en allant au nord-ouest. Pour finir, au sud se trouve un petit champ.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4170">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Petit champ
+Un petit champ parfait pour se reposer. D&apos;ici, vous avez une belle vue sur la colline, qui s&apos;élève à une distance très respectable dans le ciel. Vous feriez bien un petit somme, mais vous n&apos;en avez vraiment pas le temps...
+
+Vous pouvez revenir au pied de la colline en allant au nord.
+
+Une étoile attend bien sagement que vous la preniez.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe42d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe42d0">
+    <command xml:space="preserve">prendre etoile</command>
+    <result xml:space="preserve">Vous venez d&apos;obtenir l&apos;étoile 4 de ce niveau ! Vous avez maintenant quatre étoiles !
+
+Appuyez sur Espace pour continuer.
+Vous ressortez d&apos;un seul coup de la peinture, vous retrouvant ainsi dans le château.
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4430">
+    <command xml:space="preserve">prendre peinture</command>
+    <result xml:space="preserve">Trop difficile à transporter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4590">
+    <command xml:space="preserve">sauter dans peinture</command>
+    <result xml:space="preserve">Vous prenez un peu d&apos;élan et sautez dans la peinture.
+
+Étoile 5 : Le trésor du Chomp.
+
+Appuyez sur Espace pour continuer.
+
+Champ de bataille
+Une immensité d&apos;herbe se dresse devant vous. Le calme est revenu maintenant que le Roi Bob-Omb a été vaincu, permettant de profiter du paysage sans être dérangé par le bruit assourdissant des canons. Au loin se trouve une immense colline.
+
+Un petit pont au nord vous conduit plus haut, tandis qu&apos;à l&apos;ouest se trouve un autre chemin menant près d&apos;une arche.
+
+Le canon se tient prêt à tirer.
+
+Votre ami le Bob-Omb rose n&apos;a plus grand chose à faire maintenant que le canon n&apos;est plus utilisé.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe46f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe46f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Cage du Chomp
+À l&apos;ouest, un pont à bascule mène au pied de la colline, tandis qu&apos;un autre pont au sud permet de redescendre.
+
+Ohla ! Encore un peu et vous vous faisiez mordre. Un énorme Chomp, attaché à un piquet, s&apos;agite dans tous les sens, tentant de mordre tout ce qui bouge. En tout cas, voilà une protection efficace contre les gêneurs.
+
+Une étoile se trouve derrière la cage, mais le Chomp ne semble pas disposé à vous l&apos;amener sur un plateau.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4850">
+    <command xml:space="preserve">prendre etoile</command>
+    <result xml:space="preserve">Vous tentez de vous approcher de la cage, mais le Chomp vous grogne suffisamment dessus pour que vous ne risquiez pas d&apos;aller plus loin.
+
+Le Chomp fonce vers vous, ne vous laissant qu&apos;une demi-seconde pour l&apos;éviter. Heureusement qu&apos;il est attaché.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe49b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe49b0">
+    <command xml:space="preserve">x etoile</command>
+    <result xml:space="preserve">L&apos;étoile attend bien sagement que vous la preniez. Mais derrière ces barreaux, cela risque d&apos;être difficile.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4b10">
+    <command xml:space="preserve">sauter sur chomp</command>
+    <result xml:space="preserve">Ce n&apos;est clairement pas une bonne idée. Cela marche peut-être d&apos;habitude, mais les Chomps ont la tête (et tout le corps, d&apos;ailleurs) dure. Et puis, un faux mouvement et vous vous retrouveriez avec le derrière planté dans ses dents. Et ça, ça fait vraiment mal.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4c70">
+    <command xml:space="preserve">sauter sur piquet</command>
+    <result xml:space="preserve">Vous sautez d&apos;un coup sec sur le piquet à l&apos;aide de votre derrière. Grâce à votre, euh, carrure, vous parvenez à l&apos;enfoncer directement dans le sol.
+
+Le Chomp, maintenant libéré de ses chaines, commence à s&apos;agiter dans tous les sens. Il fonce d&apos;un seul coup sur la cage, qui éclate en mille morceaux, puis s&apos;éloigne derrière la colline. Va, petit Chomp, profite de ta liberté !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2fe4dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2fe4dd0">
+    <command xml:space="preserve">prendre etoile</command>
+    <result xml:space="preserve">Vous venez d&apos;obtenir l&apos;étoile 5 de ce niveau ! Vous avez maintenant cinq étoiles !
+
+Appuyez sur Espace pour continuer.
+Vous ressortez d&apos;un seul coup de la peinture, vous retrouvant ainsi dans le château.
+
+Salle de la bataille de Bob-Omb
+Devant vous se trouve un énorme tableau, représentant une armée de Bob-ombs les uns derrière les autres. Même si la peinture est de qualité, vous ne comprenez pas vraiment pourquoi la princesse garde une image aussi guerrière dans son château. Peut-être parce que l&apos;armée des Toads est clairement moins impressionnante...
+
+Vous pouvez retourner dans la salle principale en allant à l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015030">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015190">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Salle principale
+La salle principale vous a toujours parue excessivement grande. Certes, ça a permis au décorateur de joliment embellir la pièce, le papier-peint représentant un magnifique ciel. Mais tout de même, toute la pièce est vide, il pourrait y avoir quelques meubles histoire de remplir. Mais bon, un grand château fait toujours son effet.
+
+Plusieurs portes se trouvent autour de vous. À l&apos;est, une porte marquée d&apos;un 3. Au nord-est, une autre marquée d&apos;un 1, et au nord-ouest, une autre marquée d&apos;un 3. Enfin, une dernière porte, sans numéro, se trouve à l&apos;ouest. La sortie du château est au sud, et un escalier se trouve au nord.
+
+Un Toad essaye d&apos;attirer votre attention en sautant (de manière assez pathétique) sur place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30152f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30152f0">
+    <command xml:space="preserve">parler a toad</command>
+    <result xml:space="preserve">&quot;Oh, Mario, Mario, c&apos;est terrible ! Bowser est arrivé, et à capturé tout le monde, y compris la princesse Peach ! Il a transformé toutes les peintures du château en endroits réels, et a fermé toutes les portes grâce à ses étoiles ! Ça a été tellement vite, je n&apos;ai rien pu faire...Et vu mon état, je ne risque pas de pouvoir faire grand chose maintenant...
+
+Tu dois récupérer les étoiles afin d&apos;ouvrir les portes et rattraper Bowser !&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015450">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Coucou, ici Meuh. Techniquement vous avez assez d&apos;étoiles pour entrer, mais le niveau n&apos;est pas encore créé. Désolé !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30155b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30155b0">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">
+Grâce à la puissance des étoiles, la porte s&apos;ouvre doucement...
+
+Salle de la Montagne Gla-Gla
+Au fond de la salle se trouve cette fois trois énormes peintures, qui représentent pourtant toutes les trois la même scène. Voilà encore une drôle de décision de la part du décorateur. Peut-être aimait-il tellement cette peinture qu&apos;il a voulu l&apos;avoir en trois exemplaire...
+
+Dans tous les cas, la porte au sud-est permet de revenir dans la salle principale.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015710">
+    <command xml:space="preserve">sauter dans peinture du milieu</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015870"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015870">
+    <command xml:space="preserve">x peinture</command>
+    <result xml:space="preserve">Précisez : la peinture centrale, la peinture de gauche ou la peinture de droite?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30159d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30159d0">
+    <command xml:space="preserve">x peinture centrale</command>
+    <result xml:space="preserve">La peinture représente une magnifique montagne couverte de neige. Le genre qui donne envie de se mettre aux sports d&apos;hiver. Ça ne vous ferait d&apos;ailleurs pas de mal d&apos;en faire un peu, vous devriez en profiter !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015b30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015b30">
+    <command xml:space="preserve">x peinture du milieu</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015c90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015c90">
+    <command xml:space="preserve">x peinture milieu</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3015df0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3015df0">
+    <command xml:space="preserve">x peinture du milieu</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b080">
+    <command xml:space="preserve">x peinture</command>
+    <result xml:space="preserve">Précisez : la peinture centrale, la peinture de gauche ou la peinture de droite?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b1e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b1e0">
+    <command xml:space="preserve">centrale</command>
+    <result xml:space="preserve">La peinture représente une magnifique montagne couverte de neige. Le genre qui donne envie de se mettre aux sports d&apos;hiver. Ça ne vous ferait d&apos;ailleurs pas de mal d&apos;en faire un peu, vous devriez en profiter !
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b340">
+    <command xml:space="preserve">sauter dans peinture</command>
+    <result xml:space="preserve">Précisez : la peinture centrale, la peinture de gauche ou la peinture de droite?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b4a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b4a0">
+    <command xml:space="preserve">centrale</command>
+    <result xml:space="preserve">Vous prenez un peu d&apos;élan et sautez dans la peinture.
+
+Étoile 1 : Glissade sur glace.
+
+Appuyez sur Espace pour continuer.
+
+Sommet de la montagne
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x303b600">
+    <command xml:space="preserve">debug_goto</command>
+    <result xml:space="preserve">Pouvez-vous préciser ce qui est concerné par cette action ?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b760">
+    <command xml:space="preserve">debug_goto arrivee niveau 4</command>
+    <result xml:space="preserve">Sommet de la montagne
+Vous voilà au sommet d&apos;une énorme montagne recouverte de neige, d&apos;un blanc immaculé. Vous rêvez quelques secondes aux vacances que vous pourriez passer ici avec la princesse, à dévaler les pentes en ski, à se battre à coup de boules de neige, pour enchaîner sur un bon chocolat chaud dans le beau petit chalet qui se dresse juste devant vous...Mais reprenez-vous, avant d&apos;en arriver là, vous avez encore du travail !
+
+Vous pouvez suivre la pente qui mène au niveau inférieur de la montagne par le nord. À l&apos;est se trouve un petit pont, qui semble à première vue cassé.  Enfin, il semble possible de sauter dans la cheminé du chalet en allant vers le bas...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303b8c0"/>
+      <child nodeId="node-0x3062310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303b8c0">
+    <command xml:space="preserve">x chalet</command>
+    <result xml:space="preserve">Ce petit chalet tout en bois semble parfait pour faire une pause après une bonne randonnée en montagne. Petit détail gênant : le seul moyen d&apos;y entrer semble être la cheminée...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303ba20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303ba20">
+    <command xml:space="preserve">x chemin\303\251e</command>
+    <result xml:space="preserve">La cheminée semble assez grande pour permettre d&apos;entrer dans le chalet. Oui, même pour vous. C&apos;est dire.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303bb80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303bb80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Petit pont
+Un petit pont part du bord de la montagne pour mener...Nulle part. Il a visiblement été cassé par une des nombreuses tempêtes soufflant régulièrement sur la montagne. Visiblement, ce n&apos;est pas par ici que vous pourrez continuer votre exploration.
+
+Vous pouvez retourner près du chalet en allant vers l&apos;ouest.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x303bce0"/>
+      <child nodeId="node-0x303be40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x303bce0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Soudainement, vous êtes transporté vers un autre endroit...
+
+Petit pont 2
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x303be40">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Sommet de la montagne
+Vous voilà au sommet d&apos;une énorme montagne recouverte de neige, d&apos;un blanc immaculé. Vous rêvez quelques secondes aux vacances que vous pourriez passer ici avec la princesse, à dévaler les pentes en ski, à se battre à coup de boules de neige, pour enchaîner sur un bon chocolat chaud dans le beau petit chalet qui se dresse juste devant vous...Mais reprenez-vous, avant d&apos;en arriver là, vous avez encore du travail !
+
+Vous pouvez suivre la pente qui mène au niveau inférieur de la montagne par le nord. À l&apos;est se trouve un petit pont, qui semble à première vue cassé.  Enfin, il semble possible de sauter dans la cheminé du chalet en allant vers le bas...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062050">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+A mi-chemin de la descente
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30621b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30621b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3062310">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+A mi-chemin de la descente
+Il n&apos;y a pas à dire, vous êtes bien content de devoir descendre la montagne que de devoir la monter. Ainsi, vous pouvez glisser tranquillement le long de la pente. La remonter serait sans doute beaucoup plus compliqué.
+
+Votre glissade vous amène à un petit embranchement. Vous pouvez continuer à descendre en allant vers le bas, ou continuer vers le nord en longeant le flan de la montage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062470">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Vous tentez de grimper la pente mais ne parvenez à faire que du sur-place. Celle-ci est beaucoup trop raide pour être remontée, visiblement.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30625d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30625d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Flan de la montagne
+Y&apos;a pas de doute, c&apos;est haut. Vous n&apos;êtes pas capable d&apos;estimer la hauteur de cette montagne, mais elle est suffisamment haute pour que vous ne tentiez pas d&apos;atteindre le pied en sautant d&apos;ici : c&apos;est le meilleur moyen de se rompre le coup. Vous en profitez tout de même pour admirer la montagne et la neige qui la recouvre, reflétant les rayons du soleil.
+
+Il vous est impossible de continuer votre progression, à moins de courir sur la montagne elle-même, ce qui serait un exploit, même pour vous. Votre seul choix est de revenir en arrière par le sud.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062730">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062890">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+A mi-chemin de la descente
+Il n&apos;y a pas à dire, vous êtes bien content de devoir descendre la montagne que de devoir la monter. Ainsi, vous pouvez glisser tranquillement le long de la pente. La remonter serait sans doute beaucoup plus compliqué.
+
+Votre glissade vous amène à un petit embranchement. Vous pouvez continuer à descendre en allant vers le bas, ou continuer vers le nord en longeant le flan de la montage.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30629f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30629f0">
+    <command xml:space="preserve">b</command>
+    <result xml:space="preserve">
+Bord de la montagne
+Vous vous laissez glisser tranquillement jusqu&apos;au niveau inférieur, en pensant qu&apos;une luge serait l&apos;outil parfait pour ce genre d&apos;activité. Votre rêverie est cependant vite interrompue par un petit détail : vous foncez droit dans le vide. Heureusement, vous freinez juste à temps, et notez dans un coin de demander au gérant d&apos;installer des barrières. Enfin, au moins vous êtes presque arrivé en bas.
+
+Un pont mène jusqu&apos;au pied de la montage, vers le bas. À l&apos;ouest se trouve une petite île flottante, accessible par un simple saut.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062b50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062b50">
+    <command xml:space="preserve">b</command>
+    <result xml:space="preserve">
+Pied de la montagne
+Votre périple est terminé : vous êtes maintenant au pied de la montagne. Celle-ci est tellement haute que vous ne parvenez même pas à apercevoir le sommet d&apos;ici.
+
+Vous pouvez traverser le pont menant vers le bord de la montagne en allant vers le haut. À l&apos;est se trouve un petit renfoncement dans la montagne, mais d&apos;ici, vous ne pouvez voir ce qui s&apos;y trouve.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062cb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062cb0">
+    <command xml:space="preserve">debug_goto arrivee niveau 4</command>
+    <result xml:space="preserve">Sommet de la montagne
+Vous voilà au sommet d&apos;une énorme montagne recouverte de neige, d&apos;un blanc immaculé. Vous rêvez quelques secondes aux vacances que vous pourriez passer ici avec la princesse, à dévaler les pentes en ski, à se battre à coup de boules de neige, pour enchaîner sur un bon chocolat chaud dans le beau petit chalet qui se dresse juste devant vous...Mais reprenez-vous, avant d&apos;en arriver là, vous avez encore du travail !
+
+Vous pouvez suivre la pente qui mène au niveau inférieur de la montagne par le nord. À l&apos;est se trouve un petit pont, qui semble à première vue cassé.  Enfin, il semble possible de sauter dans la cheminé du chalet en allant vers le bas...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3062e10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3062e10">
+    <command xml:space="preserve">sauter dans cheminet</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, à moins que cela ne soit sans grande importance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c010">
+    <command xml:space="preserve">sauter dans chemin\303\251e</command>
+    <result xml:space="preserve">
+Chalet
+Vous vous glissez dans la large cheminée et atterrissez au milieu du chalet. Vous qui vous attendiez à un charmant petit intérieur avec un feu pour pouvoir vous réchauffer, vous êtes bien déçu : en dehors des murs, le chalet ne contient strictement rien. Il semblerait que vous ne puissiez jamais vous accorder de pause.
+
+Bizarrement, il manque un des murs : à la place, une espèce d&apos;immense toboggan de glace serpentant dans tous les sens semble mener plus bas. Vous n&apos;êtes pas capable de voir sa destination d&apos;ici, mais la descente risque de sacrément secouer. Vous pouvez allez vers le bas pour l&apos;emprunter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c170">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Vous ne pouvez pas aller par là.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c2d0">
+    <command xml:space="preserve">b</command>
+    <result xml:space="preserve">
+A mi-chemin
+Vous vous lancez vers la pente et entamez votre glissade. Finalement, c&apos;est plutôt amusant ! Si on excepte, bien sûr, le fait que les bords du chemin ne soient absolument pas protégés, ce qui vaut dire qu&apos;une simple erreur de trajectoire vous enverrait valdinguer dans le vide. Mieux vaut ne pas trop y penser.
+
+Au milieu de la glissade, vous commencez à longer un mur. Vous remarquez qu&apos;une partie de ce mur semble différent du reste...Vous pouvez vous approcher de ce mur en allant vers le nord, ou continuer la glissade tranquillement vers le bas.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Vous tentez de vous rapprocher lentement du mur, mais n&apos;êtes pas capable de contrôler votre vitesse. Résultat des courses, vous foncez littéralement dans le mur. Au moment de l&apos;impact, cependant, vous passez comme si de rien n&quot;était à travers...Vous ne comprenez pas trop comment cela est possible, mais qu&apos;importe : vous venez d&apos;emprunter un petit raccourci bien plus agréable à parcourir que l&quot;énorme pente aux bords non-protégés.
+
+En bas du chalet
+Les concepteurs de cette glissade ont une façon très originale d&apos;indiquer la fin de celle-ci. La pente sur laquelle vous vous trouvez s&apos;arrête soudainement, et vous n&apos;avez pas assez de temps pour freiner. Vous finissez votre course dans le mur, ce qui a l&apos;avantage de vous permettre de vous arrêter sans problème. Mais pas sans douleur.
+
+Vous voilà donc au pied du chalet. Comme au sommet, cette pièce est parfaitement vide, en dehors d&apos;une porte à l&apos;ouest. Qui a bien pu construire un chalet pour finalement ne rien y mettre en dehors d&apos;un espèce de toboggan extrêmement dangereux ?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c590">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Pied de la montagne
+Votre périple est terminé : vous êtes maintenant au pied de la montagne. Celle-ci est tellement haute que vous ne parvenez même pas à apercevoir le sommet d&apos;ici.
+
+Vous pouvez traverser le pont menant vers le bord de la montagne en allant vers le haut. À l&apos;est se trouve un petit renfoncement dans la montagne, mais d&apos;ici, vous ne pouvez voir ce qui s&apos;y trouve.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c6f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c6f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Vous avez beau tirer puis pousser aussi fort que vous le pouvez, la porte ne bouge pas. Visiblement, elle ne permet que de sortir du chalet, pas d&apos;y entrer.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c850">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">
+Petit pont
+Dans le renfoncement de la montagne, vous découvrez un petit pont tentant tant bien que mal de tenir debout. Ce qui n&apos;est pas facile, vu qu&apos;il ne reste que quelques planches encore en bon état. La seule destination que ce pont vous permettrait d&apos;atteindre, c&apos;est le vide...
+
+Vous pouvez retourner au pied de la montagne en allant vers l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307c9b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307c9b0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Soudainement, vous êtes transporté vers un autre endroit...
+
+Petit pont
+Un petit pont part du bord de la montagne pour mener...Nulle part. Il a visiblement été cassé par une des nombreuses tempêtes soufflant régulièrement sur la montagne. Visiblement, ce n&apos;est pas par ici que vous pourrez continuer votre exploration.
+
+Vous pouvez retourner près du chalet en allant vers l&apos;ouest.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307cb10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307cb10">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Soudainement, vous êtes transporté vers un autre endroit...
+
+Petit pont
+Dans le renfoncement de la montagne, vous découvrez un petit pont tentant tant bien que mal de tenir debout. Ce qui n&apos;est pas facile, vu qu&apos;il ne reste que quelques planches encore en bon état. La seule destination que ce pont vous permettrait d&apos;atteindre, c&apos;est le vide...
+
+Vous pouvez retourner au pied de la montagne en allant vers l&apos;est.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307cc70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307cc70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Pied de la montagne
+Votre périple est terminé : vous êtes maintenant au pied de la montagne. Celle-ci est tellement haute que vous ne parvenez même pas à apercevoir le sommet d&apos;ici.
+
+Vous pouvez traverser le pont menant vers le bord de la montagne en allant vers le haut. À l&apos;est se trouve un petit renfoncement dans la montagne, mais d&apos;ici, vous ne pouvez voir ce qui s&apos;y trouve.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x307cdd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x307cdd0">
+    <command xml:space="preserve">debug_goto pied de la structure</command>
+    <result xml:space="preserve">Pied de la structure
+Une immense structure de glace se dresse devant vous. Impossible de dire si elle est d&apos;origine naturelle ou si un quelconque artiste fou a soudainement décidé de sculpter de l&apos;art abstrait. Il semble y avoir quelque chose au sommet, mais d&apos;ici, il est difficile de discerner quoi que ce soit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a3040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a3040">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Vous tentez d&apos;entamer l&apos;escalade de la structure, mais même vos formidables capacités ne vous permettent pas d&apos;atteindre le sommet : il est situé beaucoup trop loin pour pouvoir sauter jusqu&apos;ici. Tout ce que vous parvenez à faire, c&apos;est vous prendre le mur. Hm, le mur...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a31a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a31a0">
+    <command xml:space="preserve">x mur</command>
+    <result xml:space="preserve">Le mur longe la structure de glace. En l&apos;utilisant à votre avantage, vous parviendrez sans doute à atteindre le sommet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a3300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a3300">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">Je ne comprends pas cette phrase.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a3460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a3460">
+    <command xml:space="preserve">aide</command>
+    <result xml:space="preserve">Cette version du jeu est loin d&apos;être complète, et est encore pleine de bugs et autres problèmes. Si vous rencontrez quelque chose qui ne va pas (commande non reconnue qui devrait l&apos;être, comportement incohérent, etc.) ou avez une suggestion, tapez &quot;!&quot; suivi de votre commentaire, puis une fois votre session de jeu terminée, copiez la en entier (Ctrl+A) puis suivez les instructions du premier post du topic pour l&apos;envoyer à Meuh.
+
+Vous pouvez à tout moment faire ou refaire le tutorial en tapant tutorial.
+Vous pouvez quitter le niveau actuel avec la commande quitter.
+Les directions que vous pouvez emprunter sont : en haut.
+Les objets et personnages à votre disposition ici sont : le mur.
+Pour obtenir l&apos;étoile : 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a35c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a35c0">
+    <command xml:space="preserve">x mur</command>
+    <result xml:space="preserve">Le mur longe la structure de glace. En l&apos;utilisant à votre avantage, vous parviendrez sans doute à atteindre le sommet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a3720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a3720">
+    <command xml:space="preserve">sauter sur mur</command>
+    <result xml:space="preserve">Vous tentez à nouveau de sauter jusqu&apos;au sommet, mais cette fois, vous avez un plan. Alors que vous vous apprêtiez à vous manger le mur à nouveau, vous vous retournez et prenez appui de toute vos forces sur celui-ci, vous permettant de gagner l&quot;élan supplémentaire nécessaire pour atteindre le sommet. Quelle classe !
+
+Sommet de la structure
+Vous atterrissez tranquillement au sommet de la structure, et en profitez pour saluer la foule après votre performance. Personne n&apos;est là pour vous applaudir, mais qu&apos;importe, cela fait plaisir de voir que vous êtes toujours aussi en forme.
+
+Pour redescendre, il n&apos;y a pas trente-six solutions...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x30a3880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x30a3880">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Pied de la structure
+Une immense structure de glace se dresse devant vous. Impossible de dire si elle est d&apos;origine naturelle ou si un quelconque artiste fou a soudainement décidé de sculpter de l&apos;art abstrait. Il semble y avoir quelque chose au sommet, mais d&apos;ici, il est difficile de discerner quoi que ce soit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
